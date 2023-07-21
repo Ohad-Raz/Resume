@@ -18,13 +18,13 @@ H1 {
 h2 {
   font-size: 38px;
   text-align: center;
-  border-radius: 300px;
+  /*border-radius: 100px;
   border: 5px solid rgba(145, 168, 208, 0.515);
   box-shadow: 5px 5px rgba(145, 168, 208, 0.077),
-    10px 10px rgba(145, 168, 208, 0.071), 15px 15px rgba(145, 168, 208, 0.027);
+    10px 10px rgba(145, 168, 208, 0.071), 15px 15px rgba(145, 168, 208, 0.027);*/
 }
 H3 {
-  text-decoration: underline;
+  text-decoration: none;
   background-color: rgb(145, 168, 208);
   font-size: 25px;
   border-radius: 10px;
@@ -78,8 +78,10 @@ a:active {
 
 #ME {
   border-radius: 50%;
-  box-shadow: 5px 5px rgba(145, 168, 208, 0.077),
-    10px 10px rgba(145, 168, 208, 0.071), 15px 15px rgba(145, 168, 208, 0.027);
+  border: 5px solid;
+  border-color: antiquewhite;
+  /*box-shadow: 5px 5px antiquewhite, 10px 10px rgba(145, 168, 208, 0.071),
+    15px 15px rgba(145, 168, 208, 0.027);*/
 }
 
 .info {
