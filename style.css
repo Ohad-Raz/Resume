@@ -56,24 +56,29 @@ ol {
     10px 10px rgba(145, 168, 208, 0.071), 15px 15px rgba(145, 168, 208, 0.027);
 }
 
+a {
+  color: lightcyan;
+  font-weight: 550;
+  text-shadow: #3333336e 4px 4px 8px;
+}
+
 a:link {
-  color: rgb(240, 237, 229);
+  color: lightcyan;
   text-decoration: none;
 }
 
-a:visited {
-  color: rgb(240, 237, 229);
-}
-
 a:hover {
-  color: rgb(113, 198, 213);
+  color: rgb(153, 243, 250);
   font-weight: bold;
-  text-decoration: underline rgb(120, 210, 213);
+  text-decoration: underline rgb(87, 163, 167);
+  transition-duration: 0.7s;
+  text-shadow: #333333d5 4px 4px 8px;
 }
 
 a:active {
-  background-color: rgba(20, 36, 88, 0.474);
-  font-style: italic;
+  background-color: rgba(145, 205, 212, 0.459);
+  font-style: none;
+  transition-duration: 0.4s;
 }
 
 #ME {
@@ -82,6 +87,9 @@ a:active {
   border-color: antiquewhite;
   /*box-shadow: 5px 5px antiquewhite, 10px 10px rgba(145, 168, 208, 0.071),
     15px 15px rgba(145, 168, 208, 0.027);*/
+  box-shadow: 5px 5px 8px rgba(145, 168, 208, 0.077),
+    10px 10px 8px rgba(145, 168, 208, 0.071),
+    15px 15px 8px rgba(145, 168, 208, 0.027);
 }
 
 .info {
@@ -90,8 +98,9 @@ a:active {
   padding: 5px;
   margin: 2px;
   background-color: rgba(87, 140, 169, 0.451);
-  box-shadow: 5px 5px rgba(145, 168, 208, 0.077),
-    10px 10px rgba(145, 168, 208, 0.071), 15px 15px rgba(145, 168, 208, 0.027);
+  box-shadow: 5px 5px 8px rgba(145, 168, 208, 0.077),
+    10px 10px 8px rgba(145, 168, 208, 0.071),
+    15px 15px 8px rgba(145, 168, 208, 0.027);
   border-radius: 10px;
 }
 .info2 {
@@ -101,9 +110,19 @@ a:active {
   margin: 2px;
   position: relative= 100px;
   background-color: rgba(87, 140, 169, 0.505);
-  box-shadow: 5px 5px rgba(145, 168, 208, 0.077),
-    10px 10px rgba(145, 168, 208, 0.071), 15px 15px rgba(145, 168, 208, 0.027);
+  box-shadow: 5px 5px 8px rgba(145, 168, 208, 0.077),
+    10px 10px 8px rgba(145, 168, 208, 0.071),
+    15px 15px 8px rgba(145, 168, 208, 0.027);
   border-radius: 10px;
+}
+
+.top12 {
+  margin: 83px;
+}
+
+.top34 {
+  margin: 190px;
+  margin-right: 90px;
 }
 
 .Cat {
